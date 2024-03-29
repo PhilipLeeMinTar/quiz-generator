@@ -1,8 +1,6 @@
-# React + Vite
+# Quiz Generator App with OpenAI's GPT 3.5
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a quiz-generator web app, built with React + Vite. It uses GPT-3.5 API to generate quizzes and it has been deployed on Google Cloud. Happy generating!
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Link: https://min-htet-quiz-gen-tl3tsjk4rq-uc.a.run.app/ 
+(If the link is somehow broken, either my cloud bill account has been shut down or OpenAI has changed their API methods)
