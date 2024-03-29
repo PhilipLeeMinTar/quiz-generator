@@ -1,0 +1,120 @@
+.container{
+    width: 640px;
+    margin: auto;
+    margin-top: 150px;
+    background: white;
+    color: rgb(69, 65, 65);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+
+.container hr{
+    height: 2px;
+    border: none;
+    background: gray;
+}
+
+.container h2{
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.container ul li{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 1px solid rgb(69, 65, 65);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.container label {
+    display:block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.container textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+    font-size: 16px;
+    padding: 8px;
+    font-family: 'poppins';
+}
+
+.container button{
+    margin: 20px auto;
+    width: 100px;
+    height: 50px;
+    background: rgb(241, 191, 98);
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container .index {
+    margin: auto;
+    font-size: 18px;
+}
+
+.container .correct {
+    background: rgb(220, 247, 220);
+    border-color: green;
+}
+
+.container .wrong {
+    background: rgb(252, 234, 234);
+    border-color: rgb(223, 71, 71);
+}
+
+.container-response pre{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgb(241, 191, 98);
+    color: black;
+    border-radius: 8px;
+    font-family: 'poppins';
+    overflow-x: auto;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.question-block {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.question-block h3 {
+    margin: 0 0 10px 0;
+}
+
+.options .option {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+}
+
+.answer {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.loading {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+  }
