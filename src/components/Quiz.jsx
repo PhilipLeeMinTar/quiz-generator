@@ -36,11 +36,12 @@ const Quiz = () => {
   return (
     <div className="container">
       <h1>Quiz Generator App with GPT 3.5</h1>
+      <div className="name">Created by Paing Min Htet :)</div>
       <form className="form" onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="">
-            Generate a quiz on any topic! Specify keywords like sub-topics, number of
-            questions, difficulty, question type(MCQ, T/F), etc.
+            Generate a quiz on any topic! Specify keywords like sub-topics,
+            number of questions, difficulty, question type(MCQ, T/F), etc.
           </label>
           <textarea
             rows="3"
